@@ -8,14 +8,15 @@
 	</head>
 	<body>
 		<script>
-			function car(name,year,city){
+			function car(name,year,city,sample){
 				this.name = name;
 				this.year = year;
 				this.city = city;
+				this.sample = sample;
 			}
-			var shubham_car = new car("landrover",2019,"Mumbai")
+			var shubham_car = new car("landrover",2019,"Mumbai","sample");
 			document.write("Shubham car is "+shubham_car.name+" and the year for car is "+shubham_car.year+
-				" and the car is at "+shubham_car.city);
+				" and the car is at "+shubham_car.city+ " this is a sample "+shubham_car.sample);
 		</script>
 	</body>
 </html>
